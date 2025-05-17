@@ -85,4 +85,6 @@ head {
   text-align: center;
   width: 33.3333%;
 }
-
+.opcion-seleccionada {
+  background-color: aqua;
+}
