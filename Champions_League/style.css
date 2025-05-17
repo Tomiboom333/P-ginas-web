@@ -9,13 +9,16 @@
 }
 
 table {
+  border-top: 4px solid rgb(0, 0, 75);
+  border-bottom: 4px solid rgb(0, 0, 75);
+  border-left: 4px solid rgb(0, 0, 75);
+  border-right: 4px solid rgb(0, 0, 75);
   height: 40%;
   left: 10%;
   margin: 20px auto;
   overflow-y: scroll;
   position: static;
-  width: 100%;
-  background-color: #ffffff;
+  width: 80%;
 }
 
 thead th {
@@ -29,8 +32,8 @@ thead th {
 }
 
 tr {
-  background: #ffffff;
-  border-bottom: 0px solid #FFF;
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
   margin-bottom: 5px;
 }
 
