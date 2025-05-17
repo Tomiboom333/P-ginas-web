@@ -1,17 +1,18 @@
 .navegacion{
   display: flex;
   justify-content: center;
-  background-color: rgb(0, 0, 75);
+  align-items: center;
+  background-color: rgb(255, 255, 255);
   color: #ffffff;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   font-weight: 100;
-  word-spacing: 20px;
+  word-spacing: 10px;
 }
 
-table {
-  border-top: 4px solid rgb(0, 0, 75);
+.tablag {
+  border-top: 1px solid rgb(0, 0, 75);
   border-bottom: 4px solid rgb(0, 0, 75);
   border-left: 4px solid rgb(0, 0, 75);
   border-right: 4px solid rgb(0, 0, 75);
@@ -22,8 +23,7 @@ table {
   position: static;
   width: 80%;
 }
-
-thead th {
+.tablag thead th {
   background: rgb(54, 9, 92);
   color: #FFF;
   font-family: 'Lato', sans-serif;
@@ -32,17 +32,50 @@ thead th {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-
-tr {
+.tablag tr {
   background: #f4f7f8;
   border-bottom: 1px solid #FFF;
   margin-bottom: 5px;
 }
-
-th, td {
+.tablag th,.tablag td {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   padding: 20px;
   text-align: center;
   width: 33.3333%;
 }
+
+.tablam {
+  border-top: 1px solid rgb(0, 0, 75);
+  border-bottom: 4px solid rgb(0, 0, 75);
+  border-left: 4px solid rgb(0, 0, 75);
+  border-right: 4px solid rgb(0, 0, 75);
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+.tablam thead th {
+  background: rgb(54, 9, 92);
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.tablam tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+.tablam th,.tablam td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+  width: 33.3333%;
+}
+
