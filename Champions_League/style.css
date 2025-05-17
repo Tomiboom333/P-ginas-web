@@ -14,8 +14,8 @@ table {
   margin: 20px auto;
   overflow-y: scroll;
   position: static;
-  width: 80%;
-  
+  width: 100%;
+  background-color: #ffffff;
 }
 
 thead th {
@@ -29,8 +29,8 @@ thead th {
 }
 
 tr {
-  background: #f4f7f8;
-  border-bottom: 1px solid #FFF;
+  background: #ffffff;
+  border-bottom: 0px solid #FFF;
   margin-bottom: 5px;
 }
 
