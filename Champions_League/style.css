@@ -88,4 +88,6 @@ head {
 .opcion-seleccionada {
   background-color: rgb(39, 15, 250);
   color: #ffffff !important;
+  font-weight: bold;
+  text-decoration: none;
 }
