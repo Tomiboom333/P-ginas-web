@@ -86,5 +86,10 @@ head {
   width: 33.3333%;
 }
 .opcion-seleccionada {
-  background-color: aqua;
+  background-color: rgb(39, 15, 250);
+}
+.opcion-seleccionada a {
+  color: #ffffff !important;
+  font-weight: bold;
+  text-decoration: none;
 }
