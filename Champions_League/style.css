@@ -19,10 +19,8 @@ head {
 }
 
 .tablag {
-  border-top: 1px solid rgb(0, 0, 75);
-  border-bottom: 4px solid rgb(0, 0, 75);
-  border-left: 4px solid rgb(0, 0, 75);
-  border-right: 4px solid rgb(0, 0, 75);
+  border: 1px solid black;
+  border-collapse: collapse;
   height: 40%;
   left: 10%;
   margin: 20px auto;
@@ -41,7 +39,7 @@ head {
 }
 .tablag tr {
   background: #f4f7f8;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #000000;
   margin-bottom: 5px;
 }
 .tablag th,.tablag td {
@@ -53,10 +51,8 @@ head {
 }
 
 .tablam {
-  border-top: 1px solid rgb(0, 0, 75);
-  border-bottom: 4px solid rgb(0, 0, 75);
-  border-left: 4px solid rgb(0, 0, 75);
-  border-right: 4px solid rgb(0, 0, 75);
+  border: 1px solid black;
+  border-collapse: collapse;
   height: 40%;
   left: 10%;
   margin: 20px auto;
@@ -75,7 +71,7 @@ head {
 }
 .tablam tr {
   background: #f4f7f8;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #000000;
   margin-bottom: 5px;
 }
 .tablam th,.tablam td {
