@@ -87,4 +87,5 @@ head {
 }
 .opcion-seleccionada {
   background-color: rgb(39, 15, 250);
+  color: #ffffff;
 }
