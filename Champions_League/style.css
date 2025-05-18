@@ -13,15 +13,12 @@ body::before {
       left: 0;
       height: 100%;
       width: 100%;
-      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdyEdVNapOWV7MoMHBwS0f4UGfcsXcnQxEA&s); /* Reemplazá con tu ruta */
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdyEdVNapOWV7MoMHBwS0f4UGfcsXcnQxEA&s") !important;
       background-size: cover;
       background-position: center;
-      opacity: 0.2; /* Ajustá la transparencia */
-      z-index: -1;  /* Lo manda detrás del contenido */
-    }
-head {
-  background-color: rgba(255,255,255,0.85);
-}
+      opacity: 0.3;
+      z-index: -1;
+  }
 .titulo {
     background-color:white ;
     text-align: center;

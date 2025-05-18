@@ -4,9 +4,11 @@
     src: url(https://www.uefa.com/Content/fonts/champions/champions-extrabold.woff2)format("woff2"),url(https://www.uefa.com/Content/fonts/champions/champions-extrabold.woff)format("woff");
     font-weight: 900;
     font-style: normal;
-    text-align: center;
+    text-align:initial ;
     max-width: 1000px;
     margin: 50px auto;
     border-radius: 8px;
     padding: 20px;
+    font-size: 30px;
 }
+
