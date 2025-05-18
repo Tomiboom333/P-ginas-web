@@ -1,8 +1,26 @@
-body {
-  background-color: rgb(255, 255, 255);
+html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      position: relative;
+      z-index: 0;
 }
+body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdyEdVNapOWV7MoMHBwS0f4UGfcsXcnQxEA&s); /* Reemplazá con tu ruta */
+      background-size: cover;
+      background-position: center;
+      opacity: 0.2; /* Ajustá la transparencia */
+      z-index: -1;  /* Lo manda detrás del contenido */
+    }
 head {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255,255,255,0.85);
 }
 .titulo {
     background-color:white ;
@@ -30,6 +48,10 @@ head {
   width: 100%;
   text-align: center;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 50px auto;
+  border-radius: 8px;
+  padding: 20px;
 }
 .tablag thead th {
   background: rgb(54, 9, 92);
