@@ -28,6 +28,8 @@ head {
   overflow-y: scroll;
   position: static;
   width: 100%;
+  text-align: center;
+  flex-direction: column;
 }
 .tablag thead th {
   background: rgb(54, 9, 92);
@@ -50,44 +52,3 @@ head {
   width: 33.3333%;
 }
 
-.tablam {
-  border: 1px solid black;
-  border-collapse: collapse;
-  margin: 20px auto;
-  overflow-y: scroll;
-  position: static;
-  width: 100%;
-}
-.tablam a{
-  color: #080000 !important;
-  font-weight: bold;
-  text-decoration: none;
-}
-.tablam thead th {
-  background: rgb(54, 9, 92);
-  color: #000000;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 2px;
-}
-.tablam tr {
-  background: #f4f7f8;
-  border-bottom: 1px solid #000000;
-  margin-bottom: 5px;
-}
-.tablam th,.tablam td {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  padding: 20px;
-  text-align: center;
-  width: 33.3333%;
-}
-.opcion-seleccionada {
-  background-color: rgb(39, 15, 250);
-}
-.opcion-seleccionada a {
-  color: #ffffff !important;
-  font-weight: bold;
-  text-decoration: none;
-}
