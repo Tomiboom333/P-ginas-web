@@ -52,7 +52,7 @@ body::before {
   background: rgb(0, 0, 75);
   color: #FFF;
   font-family:sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 100;
   letter-spacing: 2px;
 }
@@ -67,10 +67,11 @@ body::before {
   padding: 10px;
   text-align: center;
   width: 33.3333%;
+  font-size: 25px;
 }
 
 .equipo {
   margin-top: 5px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 25px;
 }
