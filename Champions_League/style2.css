@@ -1,10 +1,11 @@
 .tablam {
-  border: 1px solid black;
   border-collapse: collapse;
   margin: 20px auto;
   overflow-y: scroll;
   position: static;
   width: 95%;
+  border-radius: 60px;
+  table-layout: fixed;
 }
 .tablam a{
   color: #080000 !important;
@@ -20,8 +21,7 @@
   letter-spacing: 2px;
 }
 .tablam tr {
-  background: #f4f7f8;
-  border-bottom: 1px solid #000000;
+  background: #80d5f1;
   margin-bottom: 5px;
 }
 .tablam th,.tablam td {
@@ -29,7 +29,7 @@
   font-weight: 400;
   padding: 20px;
   text-align: center;
-  width: 33.3333%;
+  border-radius: 60px;
 }
 .opcion-seleccionada {
   background-color: rgb(39, 15, 250);

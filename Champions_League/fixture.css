@@ -9,8 +9,8 @@
   flex-direction: column;
   max-width: 1200px;
   margin: 50px auto;
-  border-radius: 8px;
   padding: 20px;
+  table-layout:fixed;
 }
 .tablaf thead th {
   background: rgb(0, 0, 75);
