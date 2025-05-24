@@ -33,3 +33,22 @@
   width: 33.3333%;
   font-size: 25px;
 }
+
+.boton-enviar {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.select-gol {
+  font-size: 18px;
+  padding: 10px 15px;
+  width: 280px;
+  border: 1px solid #888;
+  border-radius: 6px;
+  background-color: #f2f2f2;
+}
