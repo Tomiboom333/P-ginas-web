@@ -33,3 +33,21 @@
   width: 33.3333%;
   font-size: 25px;
 }
+
+.boton-enviar {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.select {
+  font-size: 18px;       /* Aumenta el tamaño del texto */
+  padding: 10px 14px;    /* Espaciado interno para que se vea más grande */
+  width: 250px;          /* Ancho del menú desplegable */
+  border-radius: 6px;    /* Bordes redondeados */
+  border: 1px solid #333;
+}
