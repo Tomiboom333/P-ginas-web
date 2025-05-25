@@ -45,9 +45,9 @@
 }
 
 .select {
-  font-size: 18px;       /* Aumenta el tamaño del texto */
-  padding: 10px 14px;    /* Espaciado interno para que se vea más grande */
-  width: 250px;          /* Ancho del menú desplegable */
-  border-radius: 6px;    /* Bordes redondeados */
+  font-size: 18px;
+  padding: 10px 14px;
+  width: 250px;
+  border-radius: 6px;
   border: 1px solid #333;
 }
