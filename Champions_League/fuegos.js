@@ -43,7 +43,7 @@ function update() {
 		var velocidadY = parseFloat(particula.getAttribute("data-velocidad-y"));
 		velocidadY += gravedad;
 
-		particula.setAttribute("data-velocidad-y", velocidadY);
+		//particula.setAttribute("data-velocidad-y", velocidadY);
 
 		var top = particula.style.top ? particula.style.top : "0"; //10px
 		top = parseFloat(top.replace("px", ""));
