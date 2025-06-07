@@ -32,35 +32,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <style> 
+        body, html {
+            overflow: hidden;
+        }
+        .texto-fijo {
+            text-align: center;
+            position: absolute;
+            top: 500px;
+            left: 500px;
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            z-index: 1000;
+
+            /* Estilo de fondo */
+            background-color: rgba(238, 245, 252, 0.6);
+            padding: 10px;
+            border-radius: 8px;
+            width: 400px;
+        }
+
+        .texto {
+            text-align: center;
+            position: absolute;
+            top: 500px;
+            right: 500px;
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            z-index: 1000;
+
+            /* Estilo de fondo */
+            background-color: rgba(238, 245, 252, 0.6);
+            padding: 10px;
+            border-radius: 8px;
+            width: 400px;
+        }
+    </style>
+    <script src="fuegos.js"></script>
+
     <div class="texto-fijo">
-        <h2>PSG</h2>
+        <p><a href="https://es.psg.fr/" target="_blank"><img src="https://1000marcas.net/wp-content/uploads/2020/10/PSG-logo.png" alt="Escudo PSG" width="" height="125"></a></p>
+        <h2>PSG - 5</h2>
+
     </div>
 
-    <style>
-    .texto-fijo {
-     position: absolute;  /* o 'fixed' si querés que no se mueva al hacer scroll */
-     top: 500px;          /* distancia desde el borde superior */
-     left: 500px;         /* distancia desde el borde izquierdo */
-     color: rgb(0, 0, 0);
-     font-size: 24px;
-     font-family: Arial, sans-serif;
-     z-index: 1000;       /* para que quede por encima de otros elementos */
-      }
-    </style>
     <div class="texto">
-        <h2>Inter de Milan</h2>
+        <p><a href="https://www.inter.it/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/2048px-FC_Internazionale_Milano_2021.svg.png" alt="Escudo Inter de Milán" width="" height="125"></a></p>
+        <h2>Inter de Milan - 0</h2>
     </div>
 
-    <style>
-    .texto {
-     position: absolute;  /* o 'fixed' si querés que no se mueva al hacer scroll */
-     top: 500px;          /* distancia desde el borde superior */
-     right: 500px;         /* distancia desde el borde izquierdo */
-     color: rgb(0, 0, 0);
-     font-size: 24px;
-     font-family: Arial, sans-serif;
-     z-index: 1000;       /* para que quede por encima de otros elementos */
-      }
-    </style>
 </body>
 </html>
