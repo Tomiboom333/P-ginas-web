@@ -41,11 +41,8 @@
   </div>
 
   <script>
-    // Leer los parámetros de la URL
     let parametros = new URLSearchParams(window.location.search);
     let jugador = parametros.get("gol");
-
-    // Mostrar el valor en el span
     if (jugador) {
       document.getElementById("jugador").textContent = jugador;
     }
