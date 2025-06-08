@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Champions actual</title>
+  <title>gracias</title>
   <div class="titulo">
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_uefa_2012.png" height="240" width="600">
   </div>
@@ -31,11 +31,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <body>
   <div class="textos">
-   <h1>¡Gracias por tu voto!</h1>
-  <p>Tu gol favorito ha sido registrado con éxito.</p>
-  <p>¡Sigue disfrutando de la Champions League!</p>
-  <a href="GolFav.html">Volver a votar</a>
+    <h1>¡Gracias por tu voto!</h1>
+    <p>Tu gol favorito ha sido registrado con éxito.</p>
+    <p>Votaste por: <span id="jugador"></span></p>
+    <p>¡Sigue disfrutando de la Champions League!</p>
+    <a href="GolFav.html">Volver a votar</a>
   </div>
+
+  <script>
+    // Leer los parámetros de la URL
+    let parametros = new URLSearchParams(window.location.search);
+    let jugador = parametros.get("gol");
+
+    // Mostrar el valor en el span
+    if (jugador) {
+      document.getElementById("jugador").textContent = jugador;
+    }
+  </script>
+</body>
 </body>  
 </html>
