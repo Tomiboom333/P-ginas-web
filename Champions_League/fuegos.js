@@ -17,10 +17,10 @@ function crearParticula() {
 	let velocidadY = -15 - (Math.random() * 15);
 
 	particula.setAttribute("data-velocidad-y", velocidadY);
-	particula.setAttribute("data-velocidad-x", "0");
-	particula.setAttribute("data-padre", "true");
+	particula.setAttribute("data-velocidad-x", -5 + (10*Math.random()));
+	particula.setAttribute("data-padre", "true");	
 
-	particula.style.background = getRandomColor();
+	particula.style.background = elegirColor();
 
 	document.getElementsByTagName("body")[0].append(particula);
 
@@ -31,11 +31,11 @@ function crearParticula() {
 	}
 }
 
-function start() {
+function empezar() {
 	crearParticula();
 }
 
-function update() {
+function actualizar() {
 	let particulas = document.getElementsByClassName("particula");
 	for (let p=0; p < particulas.length; p++) {
 		let particula = particulas[p];
@@ -68,7 +68,7 @@ function update() {
 		}
 	}
 
-	setTimeout(update, 20);
+	setTimeout(actualizar, 20);
 }
 
 function explotar(particula) {
@@ -97,12 +97,11 @@ function explotar(particula) {
 }
 
 window.onload = function() {
-	start();
-	update();
+	empezar();
+	actualizar();
 };
 
-//utilerias
-function getRandomColor() {
+function elegirColor() {
   let colores = '0123456789ABCDEF';
   let color = '#';
   for (let i = 0; i < 6; i++) {

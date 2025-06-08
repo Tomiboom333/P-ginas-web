@@ -5,19 +5,17 @@ const siguiente = document.querySelector('.next');
 
 let index = 0;
 
-function showSlide() {
+function mostrarSlide() {
   const slideWidth = imagenes[0].clientWidth;
   slides.style.transform = `translateX(${-index * slideWidth}px)`;
 }
 
 siguiente.addEventListener('click', () => {
   index = (index + 1) % imagenes.length;
-  showSlide();
+  mostrarSlide();
 });
 
 anterior.addEventListener('click', () => {
   index = (index - 1 + imagenes.length) % imagenes.length;
-  showSlide();
+  mostrarSlide();
 });
-
-window.addEventListener('resize', showSlide); // Ajusta en caso de cambio de tamaño
