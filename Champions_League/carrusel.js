@@ -1,22 +1,22 @@
 const slides = document.querySelector('.slides');
-const images = document.querySelectorAll('.slides img');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
+const imagenes = document.querySelectorAll('.slides img');
+const anterior = document.querySelector('.prev');
+const siguiente = document.querySelector('.next');
 
 let index = 0;
 
 function showSlide() {
-  const slideWidth = images[0].clientWidth;
+  const slideWidth = imagenes[0].clientWidth;
   slides.style.transform = `translateX(${-index * slideWidth}px)`;
 }
 
-nextBtn.addEventListener('click', () => {
-  index = (index + 1) % images.length;
+siguiente.addEventListener('click', () => {
+  index = (index + 1) % imagenes.length;
   showSlide();
 });
 
-prevBtn.addEventListener('click', () => {
-  index = (index - 1 + images.length) % images.length;
+anterior.addEventListener('click', () => {
+  index = (index - 1 + imagenes.length) % imagenes.length;
   showSlide();
 });
 
